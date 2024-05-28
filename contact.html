@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html dir="rtl">
+
+<head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
+	<style>
+		* {
+			font-family: "Cairo", sans-serif;
+		}
+	</style>
+	<meta charset="utf-8">
+	<title>Easy Way لبرمجة التطبيقات الديسك توب والموبايل والمواقع</title>
+	<!-- Stylesheets -->
+	<link href="assets/css/bootstrap.css" rel="stylesheet">
+	<link href="assets/css/style.css" rel="stylesheet">
+	<link href="assets/css/meanmenu.min.css" rel="stylesheet">
+	<link href="assets/css/responsive.css" rel="stylesheet">
+
+	<link
+		href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,600;1,700&display=swap"
+		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+		rel="stylesheet">
+
+	<link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+	<link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
+
+	<!-- Responsive -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+</head>
+
+<body>
+	<script>
+		function redirectLinks() {
+			const links = document.querySelectorAll('a');
+			links.forEach(link => {
+				const href = link.getAttribute('href');
+				if (href !== 'contact.html' && href !== 'about.html') {
+					link.setAttribute('href', 'index.html');
+				}
+			});
+		}
+		document.addEventListener('DOMContentLoaded', redirectLinks);
+	</script>
+
+	<div class="page-wrapper">
+
+		<!-- Cursor -->
+		<div class="cursor"></div>
+		<div class="cursor-follower"></div>
+		<!-- Cursor End -->
+
+		<!-- Preloader -->
+		<div class="loader-wrap">
+			<div class="preloader">
+				<div class="preloader-close">x</div>
+				<div id="handle-preloader" class="handle-preloader" dir="ltr">
+					<div class="animation-preloader">
+						<div class="txt-loading">
+							<span data-text-preloader="E" class="letters-loading">E</span>
+							<span data-text-preloader="A" class="letters-loading">A</span>
+							<span data-text-preloader="S" class="letters-loading">S</span>
+							<span data-text-preloader="Y" class="letters-loading">Y</span>
+							<span data-text-preloader="W" class="letters-loading">W</span>
+							<span data-text-preloader="A" class="letters-loading">A</span>
+							<span data-text-preloader="Y" class="letters-loading">Y</span>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!-- Preloader End -->
+
+		<!-- Main Header -->
+		<header class="main-header header-style-one">
+
+			<!-- الشريط السفلي للرأس -->
+			<div class="header-lower">
+				<div class="auto-container">
+					<div class="inner-container">
+						<div class="d-flex justify-content-between align-items-center flex-wrap">
+
+							<div class="logo-box">
+								<div class="logo"><a href="index.html"><img src="assets/images/logo.svg" alt=""
+											title=""></a></div>
+							</div>
+
+							<div class="nav-outer d-flex flex-wrap">
+								<!-- القائمة الرئيسية -->
+								<nav class="main-menu navbar-expand-md">
+									<div class="navbar-header">
+										<!-- زر التبديل -->
+										<button class="navbar-toggler" type="button" data-toggle="collapse"
+											data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+											aria-expanded="false" aria-label="Toggle navigation">
+											<span class="icon-bar"></span>
+											<span class="icon-bar"></span>
+											<span class="icon-bar"></span>
+										</button>
+									</div>
+
+									<div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
+										<ul class="navigation clearfix">
+
+											<li><a href="index.html" style="font-family: 'Cairo', sans-serif;"> الرئيسية</a>
+											</li>
+											<li><a href="about.html" style="font-family: 'Cairo', sans-serif; margin-left: 10px; ">من نحن</a>
+											</li>
+											<li><a href="contact.html"
+													style="font-family: 'Cairo', sans-serif; margin-right: 10px;">اتصل بنا</a></li>
+										</ul>
+									</div>
+								</nav>
+							</div>
+
+							<!-- نهاية القائمة الرئيسية -->
+							<div class=" outer-box d-flex align-items-center flex-wrap">
+
+								<!-- قائمة اللغة -->
+
+
+								<!-- صندوق الأزرار -->
+								<div class="main-header_buttons">
+									<a href="#" class="template-btn btn-style-one">
+										<span class="btn-wrap">
+											<span class="text-one">تواصل الان </span>
+											<span class="text-two">تواصل الان</span>
+										</span>
+									</a>
+								</div>
+
+								<!-- مبدل التنقل للجوال -->
+								<div class="mobile-nav-toggler">
+									<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2"
+										width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5"
+										stroke="currentColor" fill="none" stroke-linecap="round"
+										stroke-linejoin="round">
+										<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+										<path d="M4 6l16 0" />
+										<path d="M4 12l16 0" />
+										<path d="M4 18l16 0" />
+									</svg>
+								</div>
+
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- نهاية الشريط السفلي للرأس -->
+
+			<!-- القائمة الجوال -->
+			<div class="mobile-menu">
+				<div class="menu-backdrop"></div>
+				<div class="close-btn"><span class="icon fa-solid fa-xmark fa-fw"></span></div>
+
+				<nav class="menu-box">
+					<div class="nav-logo"><a href="index.html"><img src="assets/images/mobile-logo.svg" alt=""
+								title=""></a></div>
+					<div class="menu-outer">
+						<!-- هنا ستأتي القائمة تلقائيًا عبر جافا سكريبت / نفس القائمة كما في الرأس -->
+					</div>
+				</nav>
+			</div>
+			<!-- نهاية القائمة الجوال -->
+
+		</header>
+		<!-- End Main Header -->
+
+		<!-- Page Title -->
+		<section class="page-title">
+			<div class="page-title-icon" style="background-image:url(assets/images/icons/page-title_icon-1.png)"></div>
+			<div class="page-title-icon-two" style="background-image:url(assets/images/icons/page-title_icon-2.png)">
+			</div>
+			<div class="page-title-shadow" style="background-image:url(assets/images/background/page-title-1.png)">
+			</div>
+			<div class="page-title-shadow_two" style="background-image:url(assets/images/background/page-title-2.png)">
+			</div>
+			<div class="auto-container">
+				<h2>تواصل معنا</h2>
+				<ul class="bread-crumb clearfix">
+					<li><a href="index.html">الرئيسية</a></li>
+					<li>تواصل معنا</li>
+				</ul>
+			</div>
+		</section>
+		<!-- End Page Title -->
+
+		<!-- Contact Info -->
+		<section class="contact-info">
+			<div class="auto-container">
+				<div class="row clearfix">
+
+					<!-- Info Block One -->
+					<div class="info-block_one col-lg-4 col-md-6 col-sm-12">
+						<div class="info-block_one-inner">
+							<div class="info-block_one-icon">
+								<i class="icon-phone"></i>
+							</div>
+							<h4>اتصل بنا</h4>
+							<a href="tel:+415-864-8728">+415-864-8728</a> <br>
+							<a href="tel:+415-864-8729">+415-864-8729</a>
+						</div>
+					</div>
+
+					<!-- Info Block One -->
+					<div class="info-block_one active col-lg-4 col-md-6 col-sm-12">
+						<div class="info-block_one-inner">
+							<div class="info-block_one-icon">
+								<i class="icon-envelope"></i>
+							</div>
+							<h4>راسلنا عبر البريد الإلكتروني</h4>
+							<a href="mailto:support@easyway.com">support@easyway.com</a> <br>
+							<a href="mailto:contact@easyway.com">contact@easyway.com</a>
+						</div>
+					</div>
+
+					<!-- Info Block One -->
+					<div class="info-block_one col-lg-4 col-md-6 col-sm-12">
+						<div class="info-block_one-inner">
+							<div class="info-block_one-icon">
+								<i class="icon-map"></i>
+							</div>
+							<h4>موقعنا</h4>
+							<div class="text">1426 شارع الوسط، بيند، أوريغون <br> 97702, كاليفورنيا, الولايات المتحدة</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+		<!-- End Faq One -->
+
+		<!-- Team Detail Form -->
+		<section class="team-detail_form">
+			<div class="auto-container">
+				<div class="row clearfix">
+					<!-- Column -->
+					<div class="column col-lg-6 col-md-12 col-sm-12">
+						<!-- Sec Title -->
+						<div class="sec-title style-four">
+							<div class="sec-title_title">تواصل معنا</div>
+							<h2 class="sec-title_heading">اتصل بنا للحصول على <span>المساعدة</span></h2>
+							<div class="sec-title_text">نحن هنا لمساعدتك في جميع استفساراتك واحتياجاتك البرمجية. <br> تواصل معنا الآن للحصول على الدعم المطلوب.</div>
+						</div>
+						<!-- Social Box -->
+						<div class="contact-social_box">
+							<a href="https://facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+							<a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+							<a href="https://youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+							<a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+						</div>
+					</div>
+					<!-- Column -->
+					<div class="column col-lg-6 col-md-12 col-sm-12">
+						<div class="default-form contact-form">
+							<form method="post" action="sendemail.php" id="contact-form">
+								<div class="row clearfix">
+									<!--Form Group-->
+									<div class="form-group col-lg-6 col-md-6 col-sm-6">
+										<input type="text" name="name" value="" placeholder="الاسم" required>
+									</div>
+									<!--Form Group-->
+									<div class="form-group col-lg-6 col-md-6 col-sm-6">
+										<input type="email" name="email" value="" placeholder="البريد الإلكتروني" required>
+									</div>
+									<div class="form-group col-lg-6 col-md-6 col-sm-6">
+										<input type="text" name="phone" value="" placeholder="رقم الهاتف" required>
+									</div>
+									<!--Form Group-->
+									<div class="form-group col-lg-6 col-md-6 col-sm-6">
+										<select name="service" class="custom-select-box">
+											<option>اختر الخدمة</option>
+											<option>تطوير الويب</option>
+											<option>تطوير تطبيقات الهاتف</option>
+											<option>تطوير تطبيقات سطح المكتب</option>
+										</select>
+									</div>
+									<div class="col-lg-12 col-md-12 col-sm-12 form-group">
+										<textarea class="" name="message" placeholder="اكتب تعليقك هنا*"></textarea>
+									</div>
+									<div class="form-group col-lg-12 col-md-12 col-sm-12">
+										<button type="submit" class="template-btn btn-style-one">
+											<span class="btn-wrap">
+												<span class="text-one">أرسل الآن</span>
+												<span class="text-two">أرسل الآن</span>
+											</span>
+										</button>
+									</div>
+
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Team Detail Form -->
+
+		<!-- Map One -->
+		<section class="map-one">
+			<div class="auto-container">
+				<div class="map-one_map">
+					<iframe width="820" height="560" id="gmap_canvas"
+						src="https://maps.google.com/maps?q=636+5th+Ave%2C+New+York&t=&z=18&ie=UTF8&iwloc=&output=embed"></iframe>
+				</div>
+			</div>
+		</section>
+		<!-- End Map One -->
+
+		<!-- CTA One -->
+		<section class="cta-one style-two">
+			<div class="cta-one_shadow" style="background-image:url(assets/images/background/cta-shadow.png)"></div>
+			<div class="auto-container">
+				<div class="inner-container">
+					<div class="cta-icon_one" style="background-image:url(assets/images/icons/cta-icon-1.png)"></div>
+					<div class="cta-icon_two" style="background-image:url(assets/images/icons/cta-icon-2.png)"></div>
+					<div class="cta-one_card">
+						<img src="assets/images/icons/cta-card.png" alt="" />
+					</div>
+					<div class="row clearfix">
+						<!-- Column -->
+						<div class="cta-one_title-column col-lg-6 col-md-12 col-sm-12">
+							<div class="cta-one_title-outer">
+								<h2 class="cta-one_title">Craft your next great <span>content now.</span></h2>
+								<div class="cta-one_button">
+									<a href="about.html" class="template-btn btn-style-three">
+										<span class="btn-wrap">
+											<span class="text-one">Get started free</span>
+											<span class="text-two">Get started free</span>
+										</span>
+									</a>
+								</div>
+							</div>
+						</div>
+						<!-- Column -->
+						<div class="cta-one_image-column col-lg-6 col-md-12 col-sm-12">
+							<div class="cta-one_image-outer">
+								<div class="cta-one_cards">
+									<img src="assets/images/icons/cta-cards.png" alt="" />
+								</div>
+								<div class="image">
+									<img src="assets/images/resource/cta.png" alt="" />
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End CTA One -->
+
+		<!-- Main Footer -->
+		<footer class="main-footer">
+			<div class="footer_pattern" style="background-image: url(assets/images/background/footer-pattern.png)">
+			</div>
+			<div class="auto-container">
+				<div class="inner-container">
+					<!-- Widgets Section -->
+					<div class="widgets-section">
+						<div class="row clearfix">
+
+							<!-- Big Column -->
+							<div class="big-column col-lg-5 col-md-12 col-sm-12">
+								<div class="footer-newsletter">
+									<h5 class="footer-title">النشرة الإخبارية</h5>
+									<div class="footer-newsletter_text">اشترك في نشرتنا الإخبارية لتبقى على اطلاع بأحدث
+										التطورات والعروض من Easy Way.</div>
+									<div class="newsletter-box">
+										<form method="post" action="contact.html">
+											<div class="form-group">
+												<span class="icon fa-regular fa-envelope fa-fw"></span>
+												<input type="email" name="search-field" value=""
+													placeholder="أدخل بريدك الإلكتروني" required>
+												<button type="submit" class="template-btn btn-style-one">
+													<span class="btn-wrap">
+														<span class="text-one">اشترك</span>
+														<span class="text-two">اشترك</span>
+													</span>
+												</button>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+
+							<!-- Big Column -->
+							<div class="big-column col-lg-7 col-md-12 col-sm-12">
+								<div class="footer-lists_outer">
+									<div class="row clearfix">
+										<!-- Column -->
+										<div class="column col-lg-5 col-md-4 col-sm-6">
+											<h5 class="footer-title">خدماتنا</h5>
+											<ul class="footer-pages_list">
+												<li><a href="#">تطوير تطبيقات سطح المكتب</a></li>
+												<li><a href="#">تطوير تطبيقات الهاتف</a></li>
+												<li><a href="#">تطوير مواقع الويب</a></li>
+											</ul>
+										</div>
+										<!-- Column -->
+										<div class="column col-lg-3 col-md-4 col-sm-6">
+											<h5 class="footer-title">موارد</h5>
+											<ul class="footer-pages_list">
+												<li><a href="about.html">من نحن</a></li>
+												<li><a href="contact.html">اتصل بنا</a></li>
+											</ul>
+										</div>
+										<!-- Column -->
+										<div class="column col-lg-4 col-md-4 col-sm-6">
+											<h5 class="footer-title">عن الشركة</h5>
+											<ul class="footer-pages_list">
+												<li><a href="about.html">قصتنا</a></li>
+												<li><a href="contact.html">فريقنا</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<div class="auto-container">
+					<div class="inner-container d-flex justify-content-between align-items-center flex-wrap">
+						<div class="footer-logo"><a href="index.html"><img src="assets/images/logo.svg" alt=""
+									title=""></a></div>
+						<div class="footer-copyright">&copy; 2024 <a href="index.html">Easy Way.</a> All rights
+							reserved.
+						</div>
+						<!-- Social Box -->
+						<div class="footer-social_box">
+							<a href="https://facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+							<a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+							<a href="https://youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+							<a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+	<!-- End PageWrapper -->
+
+	<div class="progress-wrap">
+		<svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+			<path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+		</svg>
+	</div>
+
+	<script src="assets/js/jquery.js"></script>
+	<script src="assets/js/popper.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/appear.js"></script>
+	<script src="assets/js/parallax.min.js"></script>
+	<script src="assets/js/tilt.jquery.min.js"></script>
+	<script src="assets/js/jquery.paroller.min.js"></script>
+	<script src="assets/js/wow.js"></script>
+	<script src="assets/js/swiper.min.js"></script>
+	<script src="assets/js/backtotop.js"></script>
+	<script src="assets/js/odometer.js"></script>
+	<script src="assets/js/parallax-scroll.js"></script>
+
+	<script src="assets/js/gsap.min.js"></script>
+	<script src="assets/js/SplitText.min.js"></script>
+	<script src="assets/js/ScrollTrigger.min.js"></script>
+	<script src="assets/js/ScrollToPlugin.min.js"></script>
+	<script src="assets/js/ScrollSmoother.min.js"></script>
+
+	<script src="assets/js/magnific-popup.min.js"></script>
+	<script src="assets/js/nav-tool.js"></script>
+	<script src="assets/js/jquery-ui.js"></script>
+	<script src="assets/js/element-in-view.js"></script>
+	<script src="assets/js/validate.js"></script>
+	<script src="assets/js/script.js"></script>
+
+	<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+	<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+
+</body>
+
+</html>

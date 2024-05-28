@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html dir="rtl">
+
+<head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
+	<style>
+		* {
+			font-family: "Cairo", sans-serif;
+		}
+	</style>
+	<meta charset="utf-8">
+	<title>Easy Way لبرمجة التطبيقات الديسك توب والموبايل والمواقع</title>
+	<!-- Stylesheets -->
+	<link href="assets/css/bootstrap.css" rel="stylesheet">
+	<link href="assets/css/style.css" rel="stylesheet">
+	<link href="assets/css/meanmenu.min.css" rel="stylesheet">
+	<link href="assets/css/responsive.css" rel="stylesheet">
+
+	<link
+		href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,600;1,700&display=swap"
+		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+		rel="stylesheet">
+
+	<link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+	<link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
+
+	<!-- Responsive -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+</head>
+
+<body>
+	<script>
+		function redirectLinks() {
+			const links = document.querySelectorAll('a');
+			links.forEach(link => {
+				const href = link.getAttribute('href');
+				if (href !== 'contact.html' && href !== 'about.html') {
+					link.setAttribute('href', 'index.html');
+				}
+			});
+		}
+		document.addEventListener('DOMContentLoaded', redirectLinks);
+	</script>
+
+	<div class="page-wrapper">
+
+		<!-- Cursor -->
+		<div class="cursor"></div>
+		<div class="cursor-follower"></div>
+		<!-- Cursor End -->
+
+		<!-- Preloader -->
+		<div class="loader-wrap">
+			<div class="preloader">
+				<div class="preloader-close">x</div>
+				<div id="handle-preloader" class="handle-preloader" dir="ltr">
+					<div class="animation-preloader">
+						<div class="txt-loading">
+							<span data-text-preloader="E" class="letters-loading">E</span>
+							<span data-text-preloader="A" class="letters-loading">A</span>
+							<span data-text-preloader="S" class="letters-loading">S</span>
+							<span data-text-preloader="Y" class="letters-loading">Y</span>
+							<span data-text-preloader="W" class="letters-loading">W</span>
+							<span data-text-preloader="A" class="letters-loading">A</span>
+							<span data-text-preloader="Y" class="letters-loading">Y</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Preloader End -->
+
+		<!-- Main Header -->
+		<header class="main-header header-style-one">
+
+			<!-- الشريط السفلي للرأس -->
+			<div class="header-lower">
+				<div class="auto-container">
+					<div class="inner-container">
+						<div class="d-flex justify-content-between align-items-center flex-wrap">
+
+							<div class="logo-box">
+								<div class="logo"><a href="index.html"><img src="assets/images/logo.svg" alt=""
+											title=""></a></div>
+							</div>
+
+							<div class="nav-outer d-flex flex-wrap">
+								<!-- القائمة الرئيسية -->
+								<nav class="main-menu navbar-expand-md">
+									<div class="navbar-header">
+										<!-- زر التبديل -->
+										<button class="navbar-toggler" type="button" data-toggle="collapse"
+											data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+											aria-expanded="false" aria-label="Toggle navigation">
+											<span class="icon-bar"></span>
+											<span class="icon-bar"></span>
+											<span class="icon-bar"></span>
+										</button>
+									</div>
+
+									<div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
+										<ul class="navigation clearfix">
+
+											<li><a href="index.html" style="font-family: 'Cairo', sans-serif;"> الرئيسية</a>
+											</li>
+											<li><a href="about.html" style="font-family: 'Cairo', sans-serif; margin-left: 10px; ">من نحن</a>
+											</li>
+											<li><a href="contact.html"
+													style="font-family: 'Cairo', sans-serif; margin-right: 10px;">اتصل بنا</a></li>
+										</ul>
+									</div>
+								</nav>
+							</div>
+
+							<!-- نهاية القائمة الرئيسية -->
+							<div class=" outer-box d-flex align-items-center flex-wrap">
+
+								<!-- قائمة اللغة -->
+
+
+								<!-- صندوق الأزرار -->
+								<div class="main-header_buttons">
+									<a href="#" class="template-btn btn-style-one">
+										<span class="btn-wrap">
+											<span class="text-one">تواصل الان </span>
+											<span class="text-two">تواصل الان</span>
+										</span>
+									</a>
+								</div>
+
+								<!-- مبدل التنقل للجوال -->
+								<div class="mobile-nav-toggler">
+									<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2"
+										width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5"
+										stroke="currentColor" fill="none" stroke-linecap="round"
+										stroke-linejoin="round">
+										<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+										<path d="M4 6l16 0" />
+										<path d="M4 12l16 0" />
+										<path d="M4 18l16 0" />
+									</svg>
+								</div>
+
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- نهاية الشريط السفلي للرأس -->
+
+			<!-- القائمة الجوال -->
+			<div class="mobile-menu">
+				<div class="menu-backdrop"></div>
+				<div class="close-btn"><span class="icon fa-solid fa-xmark fa-fw"></span></div>
+
+				<nav class="menu-box">
+					<div class="nav-logo"><a href="index.html"><img src="assets/images/mobile-logo.svg" alt=""
+								title=""></a></div>
+					<div class="menu-outer">
+						<!-- هنا ستأتي القائمة تلقائيًا عبر جافا سكريبت / نفس القائمة كما في الرأس -->
+					</div>
+				</nav>
+			</div>
+			<!-- نهاية القائمة الجوال -->
+
+		</header>
+		<!-- End Main Header -->
+
+		<!-- Page Title -->
+		<section class="page-title">
+
+			<div class="page-title-icon" style="background-image:url(assets/images/icons/page-title_icon-1.png)"></div>
+			<div class="page-title-icon-two" style="background-image:url(assets/images/icons/page-title_icon-2.png)">
+			</div>
+			<div class="page-title-shadow" style="background-image:url(assets/images/background/page-title-1.png)">
+			</div>
+			<div class="page-title-shadow_two" style="background-image:url(assets/images/background/page-title-2.png)">
+			</div>
+			<div class="auto-container">
+				<h2>من نحن</h2>
+				<ul class="bread-crumb clearfix">
+					<li><a href="index.html">الرئيسية</a></li>
+					<li>من نحن</li>
+				</ul>
+			</div>
+		</section>
+		<!-- End Page Title -->
+
+		<!-- Story One -->
+		<section class="story-one">
+			<div class="auto-container">
+				<div class="row clearfix">
+
+					<!-- Image Column -->
+					<div class="story-one_image-column col-lg-6 col-md-12 col-sm-12">
+						<div class="story-one_image-outer">
+							<div class="story-one_image">
+								<img src="assets/images/resource/story.png" alt="" />
+							</div>
+						</div>
+					</div>
+
+					<!-- Content Column -->
+					<div class="story-one_content-column col-lg-6 col-md-12 col-sm-12">
+						<div class="story-one_content-outer">
+							<!-- Sec Title -->
+							<div class="sec-title style-four">
+								<div class="sec-title_title">قصتنا</div>
+								<h2 class="sec-title_heading">ريادة تصميم المواقع وتطبيقات الهاتف والديسك توب</h2>
+							</div>
+							<p>تتكشف رحلتنا مع بدايات تأسيس شركة Easy Way، حيث نسعى لتقديم حلول برمجية مبتكرة تتماشى مع أحدث التقنيات في تصميم المواقع الإلكترونية وتطبيقات الهاتف والديسك توب.</p>
+							<p>من خلال تجاربنا ودراسات الحالة، يمكن للعملاء رؤية الفرق الذي نصنعه في مجالات متعددة، مما يعزز من تجربة المستخدم ويحسن من أداء الأعمال التجارية لعملائنا.</p>
+							<div class="story-one_button">
+								<a href="#" class="template-btn btn-style-one">
+									<span class="btn-wrap">
+										<span class="text-one">اعرف المزيد</span>
+										<span class="text-two">اعرف المزيد</span>
+									</span>
+								</a>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+		<!-- End Story One -->
+
+		<!-- Value One -->
+		<section class="value-one">
+			<div class="auto-container">
+				<!-- Sec Title -->
+				<div class="sec-title style-four centered">
+					<div class="sec-title_title">القيم الأساسية</div>
+					<h2 class="sec-title_heading">كشف <span>القيم الأساسية</span> <br> لتأثير دائم.</h2>
+				</div>
+				<div class="row clearfix">
+
+					<!-- Value Block One -->
+					<div class="value-block_one col-lg-4 col-md-6 col-sm-12">
+						<div class="value-block_one-inner">
+							<div class="value-block_one-icon">
+								<i class="icon-users-4"></i>
+							</div>
+							<h5 class="value-block_one-title">الأشخاص</h5>
+							<div class="value-block_one-text">تأثير حلولنا التقنية على العالم يشكل محوراً رئيسياً، مع التركيز على التطبيقات العملية والتغييرات الإيجابية التي نحدثها.</div>
+						</div>
+					</div>
+
+					<!-- Value Block One -->
+					<div class="value-block_one active col-lg-4 col-md-6 col-sm-12">
+						<div class="value-block_one-inner">
+							<div class="value-block_one-icon">
+								<i class="icon-bulb1"></i>
+							</div>
+							<h5 class="value-block_one-title">الابتكار</h5>
+							<div class="value-block_one-text">نحن نقدم حلول مبتكرة تساهم في تحسين وتطوير الأعمال التجارية من خلال تقنيات متقدمة وأفكار جديدة.</div>
+						</div>
+					</div>
+
+					<!-- Value Block One -->
+					<div class="value-block_one col-lg-4 col-md-6 col-sm-12">
+						<div class="value-block_one-inner">
+							<div class="value-block_one-icon">
+								<i class="fa-solid fa-bullseye fa-fw"></i>
+							</div>
+							<h5 class="value-block_one-title">المهمة</h5>
+							<div class="value-block_one-text">مهمتنا هي تقديم حلول برمجية تلبي احتياجات العملاء بكفاءة عالية، مع التركيز على الجودة والأداء.</div>
+						</div>
+					</div>
+
+				</div>
+
+				<!-- Button Box -->
+				<div class="value-one_button text-center">
+					<a href="#" class="template-btn btn-style-two">
+						<span class="btn-wrap">
+							<span class="text-one">انضم إلى Easy Way اليوم</span>
+							<span class="text-two">انضم إلى Easy Way اليوم</span>
+						</span>
+					</a>
+				</div>
+
+			</div>
+		</section>
+		<!-- End Value One -->
+
+		<!-- Team One -->
+		<section class="team-one">
+			<div class="auto-container">
+				<div class="row clearfix">
+					<!-- Title Column -->
+					<div class="team-one_title-column col-lg-4 col-md-12 col-sm-12">
+						<div class="team-one_title-outer">
+							<!-- Sec Title -->
+							<div class="sec-title style-four">
+								<div class="sec-title_title">فريقنا</div>
+								<h2 class="sec-title_heading">الفريق وراء <span>الابتكار</span></h2>
+								<div class="sec-title_text">في Easy Way، نفخر بفريقنا المتخصص في تصميم وتطوير مواقع الويب، وتطبيقات الهاتف والديسك توب بأعلى معايير الجودة والاحترافية.</div>
+							</div>
+							<!-- If we need navigation buttons -->
+							<div class="team-one_arrows">
+								<div class="team_carousel-prev fa-solid fa-angle-left fa-fw"></div>
+								<div class="team_carousel-next fa-solid fa-angle-right fa-fw"></div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Team Column -->
+					<div class="team-one_team-column col-lg-8 col-md-12 col-sm-12">
+						<div class="team-one_team-outer">
+							<div class="team-carousel swiper-container">
+								<div class="swiper-wrapper">
+
+									<!-- Slide -->
+									<div class="swiper-slide">
+										<!-- Team Block One -->
+										<div class="team-block_one">
+											<div class="team-block_one-inner">
+												<div class="team-block_one-image">
+													<a href="team-detail.html"><img
+															src="assets/images/resource/team-1.jpg" alt="" /></a>
+												</div>
+												<div class="team-block_one-content">
+													<h4 class="team-block_one-title"><a href="team-detail.html">Elliot
+															S. Acevedo</a></h4>
+													<div class="team-block_one-designation">مؤسس</div>
+													<!-- Social Box -->
+													<div class="team-block_one-socials">
+														<a href="https://facebook.com/"><i
+																class="fa-brands fa-facebook-f"></i></a>
+														<a href="https://twitter.com/"><i
+																class="fa-brands fa-twitter"></i></a>
+														<a href="https://linkedin.com/"><i
+																class="fa-brands fa-linkedin-in"></i></a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- Slide -->
+									<div class="swiper-slide">
+										<!-- Team Block One -->
+										<div class="team-block_one">
+											<div class="team-block_one-inner">
+												<div class="team-block_one-image">
+													<a href="team-detail.html"><img
+															src="assets/images/resource/team-2.jpg" alt="" /></a>
+												</div>
+												<div class="team-block_one-content">
+													<h4 class="team-block_one-title"><a href="team-detail.html">Elliot
+															S. Acevedo</a></h4>
+													<div class="team-block_one-designation">مؤسس</div>
+													<!-- Social Box -->
+													<div class="team-block_one-socials">
+														<a href="https://facebook.com/"><i
+																class="fa-brands fa-facebook-f"></i></a>
+														<a href="https://twitter.com/"><i
+																class="fa-brands fa-twitter"></i></a>
+														<a href="https://linkedin.com/"><i
+																class="fa-brands fa-linkedin-in"></i></a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+		<!-- End Team One -->
+
+		<!-- Testimonial Three -->
+		<section class="testimonial-three">
+			<div class="auto-container">
+				<!-- Sec Title -->
+				<div class="sec-title style-four centered">
+					<div class="sec-title_title">قصص النجاح</div>
+					<h2 class="sec-title_heading">عملاؤنا يشاركون تجاربهم <br> مع <span>Easy Way</span></h2>
+				</div>
+
+				<div class="three-item_carousel ">
+					<div class="swiper-wrapper">
+
+						<!-- Slide -->
+						<div class="swiper-slide">
+							<!-- Testimonial Block One -->
+							<div class="testimonial-block_one">
+								<div class="testimonial-block_one-inner">
+									<div class="testimonial-block_one-rating">
+										<span class="fa fa-star"></span>
+										<span class="fa fa-star"></span>
+										<span class="fa fa-star"></span>
+										<span class="fa fa-star"></span>
+										<span class="fa fa-star"></span>
+									</div>
+									<div class="testimonial-block_one-text">تجربة رائعة في تطوير تطبيقات الهاتف المحمول مع Easy Way. فريق محترف ومتجاوب، والنتائج فاقت التوقعات!</div>
+									<div class="testimonial-block_one-author_box">
+										<div class="testimonial-block_one-author-image">
+											<img src="assets/images/resource/author-2.png" alt="" />
+										</div>
+										سامي الجابر <span>مدير تسويق</span>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Slide -->
+						<div class="swiper-slide">
+							<!-- Testimonial Block One -->
+							<div class="testimonial-block_one">
+								<div class="testimonial-block_one-inner">
+									<div class="testimonial-block_one-rating">
+										<span class="fa fa-star"></span>
+										<span class="fa fa-star"></span>
+										<span class="fa fa-star"></span>
+										<span class="fa fa-star"></span>
+										<span class="fa fa-star"></span>
+									</div>
+									<div class="testimonial-block_one-text">تصميم المواقع من Easy Way كان مميزًا وجذابًا، مما ساعد في زيادة التفاعل مع عملائنا بشكل ملحوظ.</div>
+									<div class="testimonial-block_one-author_box">
+										<div class="testimonial-block_one-author-image">
+											<img src="assets/images/resource/author-3.png" alt="" />
+										</div>
+										ليلى الحمد <span>رئيسة قسم IT</span>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Slide -->
+						<div class="swiper-slide">
+							<!-- Testimonial Block One -->
+							<div class="testimonial-block_one">
+								<div class="testimonial-block_one-inner">
+									<div class="testimonial-block_one-rating">
+										<span class="fa fa-star"></span>
+										<span class="fa fa-star"></span>
+										<span class="fa fa-star"></span>
+										<span class="fa fa-star"></span>
+										<span class="fa fa-star"></span>
+									</div>
+									<div class="testimonial-block_one-text">الدعم الفني من Easy Way كان استثنائيًا، دائمًا ما يقدمون الحلول المناسبة بسرعة وكفاءة.</div>
+									<div class="testimonial-block_one-author_box">
+										<div class="testimonial-block_one-author-image">
+											<img src="assets/images/resource/author-4.png" alt="" />
+										</div>
+										محمد الراشد <span>مدير عام</span>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+					<!-- If we need pagination -->
+					<div class="three-item_carousel-pagination"></div>
+
+				</div>
+
+			</div>
+		</section>
+		<!-- End Testimonial Three -->
+
+		<!-- Clients Two -->
+		<section class="clients-two">
+			<div class="auto-container">
+				<!-- Sec Title -->
+				<div class="sec-title centered">
+					<div class="sec-title_title">Trusted Organizations</div>
+				</div>
+				<div class="clients_slider swiper-container">
+					<div class="swiper-wrapper">
+
+						<!-- Slide -->
+						<div class="swiper-slide">
+							<div class="client-image">
+								<a href="#"><img src="assets/images/clients/1.png" alt="" /></a>
+							</div>
+						</div>
+
+						<!-- Slide -->
+						<div class="swiper-slide">
+							<div class="client-image">
+								<a href="#"><img src="assets/images/clients/2.png" alt="" /></a>
+							</div>
+						</div>
+
+						<!-- Slide -->
+						<div class="swiper-slide">
+							<div class="client-image">
+								<a href="#"><img src="assets/images/clients/3.png" alt="" /></a>
+							</div>
+						</div>
+
+						<!-- Slide -->
+						<div class="swiper-slide">
+							<div class="client-image">
+								<a href="#"><img src="assets/images/clients/4.png" alt="" /></a>
+							</div>
+						</div>
+
+						<!-- Slide -->
+						<div class="swiper-slide">
+							<div class="client-image">
+								<a href="#"><img src="assets/images/clients/5.png" alt="" /></a>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Clients Two -->
+
+		<!-- CTA One -->
+		<section class="cta-one">
+			<div class="auto-container">
+				<div class="inner-container">
+					<div class="cta-icon_one" style="background-image:url(assets/images/icons/cta-icon-1.png)"></div>
+					<div class="cta-icon_two" style="background-image:url(assets/images/icons/cta-icon-2.png)"></div>
+					<div class="cta-one_card">
+						<img src="assets/images/icons/cta-card.png" alt="" />
+					</div>
+					<div class="row clearfix">
+						<!-- Column -->
+						<div class="cta-one_title-column col-lg-6 col-md-12 col-sm-12">
+							<div class="cta-one_title-outer">
+								<h2 class="cta-one_title">ابدأ مشروعك التقني مع <span>Easy Way.</span></h2>
+								<div class="cta-one_button">
+									<a href="about.html" class="template-btn btn-style-three">
+										<span class="btn-wrap">
+											<span class="text-one">ابدأ مجانا</span>
+											<span class="text-two">ابدأ مجانا</span>
+										</span>
+									</a>
+								</div>
+							</div>
+						</div>
+						<!-- Column -->
+						<div class="cta-one_image-column col-lg-6 col-md-12 col-sm-12">
+							<div class="cta-one_image-outer">
+								<div class="cta-one_cards">
+									<img src="assets/images/icons/cta-cards.png" alt="" />
+								</div>
+								<div class="image">
+									<img src="assets/images/resource/cta.png" alt="" />
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End CTA One -->
+
+		<!-- Main Footer -->
+		<footer class="main-footer">
+			<div class="footer_pattern" style="background-image: url(assets/images/background/footer-pattern.png)">
+			</div>
+			<div class="auto-container">
+				<div class="inner-container">
+					<!-- Widgets Section -->
+					<div class="widgets-section">
+						<div class="row clearfix">
+
+							<!-- Big Column -->
+							<div class="big-column col-lg-5 col-md-12 col-sm-12">
+								<div class="footer-newsletter">
+									<h5 class="footer-title">النشرة الإخبارية</h5>
+									<div class="footer-newsletter_text">اشترك في نشرتنا الإخبارية لتبقى على اطلاع بأحدث التطورات والعروض من Easy Way.</div>
+									<div class="newsletter-box">
+										<form method="post" action="contact.html">
+											<div class="form-group">
+												<span class="icon fa-regular fa-envelope fa-fw"></span>
+												<input type="email" name="search-field" value=""
+													placeholder="أدخل بريدك الإلكتروني" required>
+												<button type="submit" class="template-btn btn-style-one">
+													<span class="btn-wrap">
+														<span class="text-one">اشترك</span>
+														<span class="text-two">اشترك</span>
+													</span>
+												</button>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+
+							<!-- Big Column -->
+							<div class="big-column col-lg-7 col-md-12 col-sm-12">
+								<div class="footer-lists_outer">
+									<div class="row clearfix">
+										<!-- Column -->
+										<div class="column col-lg-5 col-md-4 col-sm-6">
+											<h5 class="footer-title">خدماتنا</h5>
+											<ul class="footer-pages_list">
+												<li><a href="#">تطوير تطبيقات سطح المكتب</a></li>
+												<li><a href="#">تطوير تطبيقات الهاتف</a></li>
+												<li><a href="#">تطوير مواقع الويب</a></li>
+											</ul>
+										</div>
+										<!-- Column -->
+										<div class="column col-lg-3 col-md-4 col-sm-6">
+											<h5 class="footer-title">موارد</h5>
+											<ul class="footer-pages_list">
+												<li><a href="about.html">من نحن</a></li>
+												<li><a href="contact.html">اتصل بنا</a></li>
+											</ul>
+										</div>
+										<!-- Column -->
+										<div class="column col-lg-4 col-md-4 col-sm-6">
+											<h5 class="footer-title">عن الشركة</h5>
+											<ul class="footer-pages_list">
+												<li><a href="about.html">قصتنا</a></li>
+												<li><a href="contact.html">فريقنا</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<div class="auto-container">
+					<div class="inner-container d-flex justify-content-between align-items-center flex-wrap">
+						<div class="footer-logo"><a href="index.html"><img src="assets/images/logo.svg" alt=""
+									title=""></a></div>
+						<div class="footer-copyright">&copy; 2024 <a href="index.html">Easy Way.</a> All rights reserved.
+						</div>
+						<!-- Social Box -->
+						<div class="footer-social_box">
+							<a href="https://facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+							<a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+							<a href="https://youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+							<a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+	<!-- End PageWrapper -->
+
+	<div class="progress-wrap">
+		<svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+			<path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+		</svg>
+	</div>
+
+	<script src="assets/js/jquery.js"></script>
+	<script src="assets/js/popper.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/appear.js"></script>
+	<script src="assets/js/parallax.min.js"></script>
+	<script src="assets/js/tilt.jquery.min.js"></script>
+	<script src="assets/js/jquery.paroller.min.js"></script>
+	<script src="assets/js/wow.js"></script>
+	<script src="assets/js/swiper.min.js"></script>
+	<script src="assets/js/backtotop.js"></script>
+	<script src="assets/js/odometer.js"></script>
+	<script src="assets/js/parallax-scroll.js"></script>
+
+	<script src="assets/js/gsap.min.js"></script>
+	<script src="assets/js/SplitText.min.js"></script>
+	<script src="assets/js/ScrollTrigger.min.js"></script>
+	<script src="assets/js/ScrollToPlugin.min.js"></script>
+	<script src="assets/js/ScrollSmoother.min.js"></script>
+
+	<script src="assets/js/touchspin.js"></script>
+	<script src="assets/js/jquery.marquee.min.js"></script>
+	<script src="assets/js/magnific-popup.min.js"></script>
+	<script src="assets/js/nav-tool.js"></script>
+	<script src="assets/js/jquery-ui.js"></script>
+	<script src="assets/js/element-in-view.js"></script>
+	<script src="assets/js/script.js"></script>
+
+	<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+	<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+
+</body>
+
+</html>
